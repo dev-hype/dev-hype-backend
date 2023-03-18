@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16.x
+      - run: npm install -g pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Lint
@@ -28,6 +29,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16.x
+      - run: npm install -g pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Typecheck
