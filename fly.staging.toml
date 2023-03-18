@@ -1,6 +1,6 @@
-# fly.toml file generated for dev-hype-backend-production on 2023-03-18T11:38:48+07:00
+# fly.toml file generated for dev-hype-backend-staging on 2023-03-18T11:38:48+07:00
 
-app = "dev-hype-backend-production"
+app = "dev-hype-backend-staging"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "lhr"
